@@ -1,7 +1,14 @@
 {
 	"name": "@digitalsilk/babel-preset-default",
-	"version": "1.5.0",
+	"version": "1.5.1",
 	"description": "Digital Silk default babel preset",
+	"homepage": "https://github.com/wpdigitalsilk/babel-preset-default/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/wpdigitalsilk/babel-preset-default.git"
+	},
+	"author": "Digital Silk",
+	"license": "GPL-2.0-or-later",
 	"publishConfig": {
 		"access": "public"
 	},
@@ -13,20 +20,6 @@
 		"publish:packages": "changeset && changeset version && changeset publish",
 		"publish:prepare": "changeset && changeset version"
 	},
-	"keywords": [
-		"digitalsilk",
-		"babel",
-		"preset"
-	],
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/wpdigitalsilk/digitalsilk-toolkit.git",
-		"directory": "packages/babel-preset-default"
-	},
-	"bugs": {
-		"url": "https://github.com/wpdigitalsilk/digitalsilk-toolkit/issues"
-	},
-	"homepage": "https://github.com/wpdigitalsilk/digitalsilk-toolkit/tree/master/packages/babel-preset-default#readme",
 	"dependencies": {
 		"@babel/core": "^7.25.7",
 		"@babel/helper-plugin-utils": "^7.25.7",
