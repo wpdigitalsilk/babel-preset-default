@@ -10,11 +10,18 @@ npm install --save-dev @digitalsilk/babel-preset-default
 
 ## Usage
 
-Simply add `@digitalsilk/babel-preset-default` to your `.babelrc` file
+Simply add `@digitalsilk/babel-preset-default` to your `.babelrc` or `babel.config.js` file
 
-```json
+```js
 // .babelrc
 {
-	"presets": ["@digitalsilk/babel-preset-default"]
+  "presets": ["@digitalsilk/babel-preset-default"]
+}
+```
+
+```js
+// .babel.config.js
+module.exports = {
+  "presets": ["@digitalsilk/babel-preset-default"]
 }
 ```
